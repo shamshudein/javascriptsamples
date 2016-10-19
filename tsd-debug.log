@@ -1,0 +1,31 @@
+[ERR!] cwd  : D:\LeanStack\Bootstrap\sample1
+[ERR!] os   : Windows_NT 6.1.7601
+[ERR!] argv : "D:\\Programs\\nodejs\\node.exe" "C:\\Users\\112300\\AppData\\Roaming\\npm\\node_modules\\tsd\\build\\cli.js" "install" "angular"
+[ERR!] node : v4.6.0
+[ERR!] tsd  : 0.6.5
+[ERR!] Error: self signed certificate in certificate chain
+[ERR!] CODE : SELF_SIGNED_CERT_IN_CHAIN
+[ERR!] self signed certificate in certificate chain
+[ERR!] If you need help, you may report this error at:
+    https://github.com/DefinitelyTyped/tsd/issues
+
+[ERR!] 
+Error: self signed certificate in certificate chain
+    at Error (native)
+    at TLSSocket.<anonymous> (_tls_wrap.js:1022:38)
+    at emitNone (events.js:67:13)
+    at TLSSocket.emit (events.js:166:7)
+    at TLSSocket._init.ssl.onclienthello.ssl.oncertcb.TLSSocket._finishInit (_tls_wrap.js:586:8)
+    at TLSWrap.ssl.onclienthello.ssl.oncertcb.ssl.onnewsession.ssl.onhandshakedone (_tls_wrap.js:428:38)
+
+[ERR!] tsd.json: {"version":"v4","repo":"borisyankov/DefinitelyTyped","ref":"master","path":"typings","bundle":"typings/tsd.d.ts","installed":{}}
+
+[ERR!] .tsdrc : {
+  "proxy": "http://proxy.cognizant.com:6050",
+  "https-proxy": "http://proxy.cognizant.com:6050",
+  "strict-ssl": false
+}
+
+[ERR!] Please include the following file with any support request:
+    D:\LeanStack\Bootstrap\sample1\tsd-debug.log
+
