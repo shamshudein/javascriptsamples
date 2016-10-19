@@ -9,7 +9,4 @@ function success()
 {
 
 }
-function fail()
-{
 
-}
